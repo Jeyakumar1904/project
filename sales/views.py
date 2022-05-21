@@ -6,7 +6,7 @@ def profile(request):
         'name': 'Vitor',
         'location': 'Finland',
         'is_active': True,
-        'count': 230
+        'count': 266
     }
     return JsonResponse(data)
 
